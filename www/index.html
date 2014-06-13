@@ -42,31 +42,21 @@
 <body id="afui" class="android light">
 
   <div id="content">
-
-    <div id="news" class="panel" style="" data-header="newsHeader" selected="true" data-defer="panels/news.html"></div>
-    <div id="events" class="panel" data-header="eventsHeader" style="" data-defer="panels/events.html"></div>
-    <div id="can" class="panel" data-header="canHeader" style="" data-defer="./panels/cand.html"></div>
-    <div id="map" class="panel" data-header="mapHeader" style="" data-defer="./panels/map.html"></div>
-    <div id="settings" class="panel" data-header="settingsHeader" style="" data-defer=".panels/settings.html"></div>
-
+    <div id="news" class="panel" selected="true" data-defer="panels/news.html"></div>
+    <div id="events" class="panel" data-defer="panels/events.html"></div>
+    <div id="can" class="panel" data-defer="panels/cand.html"></div>
+    <div id="map" class="panel" data-defer="panels/map.html"></div>
+    <div id="settings" class="panel" data-defer="panels/settings.html"></div>
+    <div id="news-item-1" class="panel" data-defer="panels/news_item_1.html"></div>
   </div>
-
 
   <div id="navbar" class="footer">
-    <a href="#news" data-transition="fade" class="icon new"></a>
-    <a href="#events" data-transition="fade" class="icon calendar"></a>
-    <a href="#can" data-transition="fade" class="icon user"></a>
-    <a href="#map" data-transition="fade" class="icon location"></a>
+    <a href="#news" data-transition="none" class="icon new">News</a>
+    <a href="#events" data-transition="none" class="icon calendar">Upcoming</a>
+    <a href="#can" data-transition="none" class="icon user">Candidates</a>
+    <a href="#map" data-transition="none" class="icon location">Map</a>
   </div>
 
-
-
-
-
 </body>
-
-
-
-
 
 </html>
