@@ -8,13 +8,12 @@ body {
 
 #afui .header h1 {
     width:80%!important;
-    font-size:45px!important;
+/*    font-size:45px!important;*/
     left:2%!important;
 }
 
 #afui .footer { 
     height:49px!important;
-   
 }
 
 #afui footer>a:not(.button) {
@@ -25,7 +24,14 @@ body {
     width:90%!important;
 }
 
+.icon.settings {
+  position: absolute !important;
+  right: 5px;
+}
+
+/*
 #afui #backButton {
     display: none!important;
 }
+*/
 
