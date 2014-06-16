@@ -35,3 +35,44 @@ body {
 }
 */
 
+/********/
+/* NEWS */
+/********/
+
+#afui .list>li>a:after { display: none; } /* hide list chevron*/
+
+.news-image { width: 100px; float: left; padding: 0 10px 10px 0;}
+.news-title { font-size: 130%; font-weight: normal; text-transform: capitalize; }
+.news-date { font-size: 130%; padding:0 0; font-weight: normal; font-size: 120%; color: #444;}
+.news-story { padding: 1em 0.5em; }
+.news-story h1 { padding:0 0 0.2em; }
+#news li { overflow: hidden; width: 100%; padding: 10px !important; }
+
+/**********/
+/* EVENTS */
+/**********/
+
+.event-image {  width: 100px; float: left; margin: 0 10px 2px 0; }
+.event-title { font-size: 130%; padding:0 0; font-weight: normal; text-transform: capitalize; }
+.event-date { font-size: 130%; padding:0 0; font-weight: normal; font-size: 120%; color: #444; }
+.event-story { padding: 1em 0.5em; }
+.event-story h1 { padding:0 0 0.2em; }
+#events li { overflow: hidden; width: 100%; padding: 10px !important; }
+
+/**************/
+/* CANDIDATES */
+/**************/
+
+.can-image {  width: 70px; float: left; padding: 0 10px 0 0; }
+.can-name { font-size: 150%; padding:0 0; font-weight: normal; text-transform: capitalize; }
+.can-party { font-size: 130%; padding:0 0; font-weight: normal; color: #444; }
+.can-details { padding: 1em 0.5em; }
+.can-details h1 { padding:0 0 0.2em; }
+#can li { overflow: hidden; width: 100%; padding: 10px !important; }
+
+
+/*******/
+/* MAP */
+/*******/
+
+#map-holder { margin: 0 -10px; }
